@@ -1,15 +1,28 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center
-
+/* While working, dsplay all the boxes with border */
+* {
+    border: solid 1px green;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    
+}
+#main {
+    background-color: grey;
+    padding: 10%;
+    margin: 1%;
+
+}
 #img-div {
-    background-color: #f2dccb;
+    max-width: 100%;
+    background-color: rgb(221, 204, 198);
+    
 }
 
 #img {
     max-width: 100%;
     height: auto;
-    padding: 10px;
+    align-items: center;
+    display: block;
 }
